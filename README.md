@@ -11,6 +11,10 @@
 
 The **STM32CubeG4 MCU Package** projects are directly running on the STM32G4 series boards. You can find in each Projects/*Board name* directories a set of software projects (Applications/Demonstration/Examples).
 
+## Matternet Addendum
+
+* The Cube firmware package has template files in <code>./Drivers/STM32F3xx_HAL_Driver</code>.  The Cube software modifies these files for automatic code generation in the Cube environment.  These files have been renamed (appending ".org" to their filename) so that they are not automatically included in a project (our makefile will automatically include any C header and source files).
+
 ## Release note
 
 Details about the content of this release are available in the release note [here](https://htmlpreview.github.io/?https://github.com/STMicroelectronics/STM32CubeG4/blob/master/Release_Notes.html).
